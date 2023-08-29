@@ -75,12 +75,14 @@ public class CaracthersToons extends JFrame{
    private Caracthers JorgeCurioso = new Caracthers("Jorge el Curioso", "700N", "100N", "/Imagenes/Jorge.png", "Selva Curiosa", "Convierte temporalmente el entorno en una selva exuberante y misteriosa, creando un nuevo campo de batalla. Liadas aparecen en la selva, permitiendo a Jorge columpiarse rápidamente de una liana a otra. Esto aumenta significativamente su movilidad y le permite moverse rápidamente por el campo de batalla.", 152, 90, 68);
    private Caracthers Lich = new Caracthers("Lich", "600N", "400N", "/Imagenes/Lich.png", "Maldición Oscura", "Todos los oponentes cercanos quedan malditos, lo que reduce temporalmente su velocidad y precisión, además de infligir daño gradual. En el estado de maldito un ataque del Lich multiplica el daño por 2. Si un enemigo tiene un daño grave la maldición lo saca de combate", 126, 205, 107);
    private Caracthers Aang = new Caracthers("Aang", "800N", "100N", "/Imagenes/Avatar_Aang.png", "Dominio de los cuatro elementos", "Puede realizar ataques especiales únicos basados en cada elemento. Por ejemplo, puede crear olas de agua gigantes, lanzar rocas gigantes con telequinesis, generar ráfagas de fuego ardiente o crear tornados de aire devastadores. Mientras está en este estado, Aang gradualmente recupera salud. Duración de 7 segundos.", 149, 190, 228);
-      private Caracthers Popeye = new Caracthers("Popeye", "500N", "500N", "/Imagenes/Popeye.png", "Energía de Espinaca", "Después de comer su espinaca obtiene una gran fuerza multiplicando su fuerza por 3 y el daño se reducido a 0.Sin embargo, si puede llegar a sufrir daño, pero su resistencia aumenta. Su fuerza dura 4 segundos.", 239, 65, 48);
+   private Caracthers Popeye = new Caracthers("Popeye", "500N", "500N", "/Imagenes/Popeye.png", "Energía de Espinaca", "Después de comer su espinaca obtiene una gran fuerza multiplicando su fuerza por 3 y el daño se reducido a 0.Sin embargo, si puede llegar a sufrir daño, pero su resistencia aumenta. Su fuerza dura 4 segundos.", 239, 65, 48);
+   private Caracthers SamuraiJack = new Caracthers("Samurai Jack", "800N", "100N", "/Imagenes/SamuraiJack.png", "Maestro de la Espada", "Después de comer su espinaca obtiene una gran fuerza multiplicando su fuerza por 3 y el daño se reducido a 0.Sin embargo, si puede llegar a sufrir daño, pero su resistencia aumenta. Su fuerza dura 4 segundos", 240, 229, 159);
 
+   //Plantilla
    private Caracthers Plantilla = new Caracthers("Aang", "800N", "100N", "/Imagenes/Avatar_Aang.png", "Dominio de los cuatro elementos", "", 126, 205, 107);
 
    
-   private Caracthers[] personajes = new Caracthers[]{PabloCientifico, Shaggy, VacaYPollito, Dexter, Tom, Jerry, Gumball, JorgeCurioso, Lich, PanteraRosa, Aang, Popeye};
+   private Caracthers[] personajes = new Caracthers[]{PabloCientifico, Shaggy, VacaYPollito, Dexter, Tom, Jerry, Gumball, JorgeCurioso, Lich, PanteraRosa, Aang, Popeye, SamuraiJack};
    private Caracthers prueba = personajes[Position];
    
    
