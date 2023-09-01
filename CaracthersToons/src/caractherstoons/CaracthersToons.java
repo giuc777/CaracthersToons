@@ -77,12 +77,27 @@ public class CaracthersToons extends JFrame{
    private Caracthers Aang = new Caracthers("Aang", "800N", "100N", "/Imagenes/Avatar_Aang.png", "Dominio de los cuatro elementos", "Puede realizar ataques especiales únicos basados en cada elemento. Por ejemplo, puede crear olas de agua gigantes, lanzar rocas gigantes con telequinesis, generar ráfagas de fuego ardiente o crear tornados de aire devastadores. Mientras está en este estado, Aang gradualmente recupera salud. Duración de 7 segundos.", 149, 190, 228);
    private Caracthers Popeye = new Caracthers("Popeye", "500N", "500N", "/Imagenes/Popeye.png", "Energía de Espinaca", "Después de comer su espinaca obtiene una gran fuerza multiplicando su fuerza por 3 y el daño se reducido a 0.Sin embargo, si puede llegar a sufrir daño, pero su resistencia aumenta. Su fuerza dura 4 segundos.", 239, 65, 48);
    private Caracthers SamuraiJack = new Caracthers("Samurai Jack", "800N", "100N", "/Imagenes/SamuraiJack.png", "Maestro de la Espada", "Después de comer su espinaca obtiene una gran fuerza multiplicando su fuerza por 3 y el daño se reducido a 0.Sin embargo, si puede llegar a sufrir daño, pero su resistencia aumenta. Su fuerza dura 4 segundos", 240, 229, 159);
+   private Caracthers Billy = new Caracthers("Billy", "400N", "600N", "/Imagenes/billy.png", "Grito Sónico ", "El grito de Billy puede aturdir temporalmente por 3 segundos a los oponentes cercanos, aumenta su fuerza en un 20%.  Si Billy tiene aliados en el juego, su grito puede otorgarles un aumento temporal de velocidad o fuerza de 7 segundos", 248, 25, 34);
+   private Caracthers Mandy = new Caracthers("Mandy", "600N", "600N", "/Imagenes/mandy.png", "Mirada Penetrante", "Mandy manda un hechizo con su mirada que desorienta completamente a los enemigos, haciendo que sus movimientos cambien por completo por 5 segundos. ¿Porque golpeas y no saltas? ", 254, 231, 117);
+   private Caracthers Huesos = new Caracthers("Huesos", "800N", "100N", "/Imagenes/huesos1.png", "Guadaña de la muerte", "La poderosa guadaña de Huesos se vuelve gigante que puede hacer un gran daño en área esta puede dar dos golpes. ¿Podrás escapar? ", 245, 205, 107);
+   private Caracthers Bugsbunny = new Caracthers("Bugs Bunny", "700N", "300N", "/Imagenes/Bugs-Bunny.png", "¿Quién soy?", "Crea clones de sí mismo por todo el campo de batalla, los cuales lo ayudaran a derrotar a los enemigos además de ganar agilidad por 8 segundos. Aun fuera de batalla sus clones siguen a menos que los derrotes. Los clones se eliminarán al terminar los 8 segundos ", 151, 151, 151);
+   private Caracthers Clifford = new Caracthers("Clifford El Gran Perro", "900N", "50N", "/Imagenes/clifford.png", "¡Que gigante!", "Clifford reduce el tamaña de todos los enemigos por un tiempo en el cual sus atributos son bajos considerablemente. Su habilidad dura 5 segundos.", 225, 58, 62);
+   private Caracthers BobConstructor = new Caracthers("Bob el Constructor", "500N", "700N", "/Imagenes/BobConstructor.png", "Construcción Maestra", "Toma a los enemigos más cercanos y construye una casa con dinamita la cual infligirá un daño masivo sobre los enemigos, al terminar de la casa salen ítems de los cuales cualquier personaje puede tomar.", 255, 229, 39);
+   private Caracthers Rex = new Caracthers("Rex", "800N", "300N", "/Imagenes/Rex.png", "Rayo Cibernético", "El rayo láser puede atravesar múltiples objetivos en línea recta antes de explotar en un área, lo que permite dañar a varios oponentes a la vez. Los enemigos alcanzados por el rayo se vuelven lentos por un periodo de 5 segundos. Aunque hayan muerto.", 126, 205, 107);
+   private Caracthers Barney = new Caracthers("Barney", "700N", "400N", "/Imagenes/Barney.png", "Abrazo de Amistad", "Todos los aliados cercanos experimentan una curación gradual de su salud durante la duración de la habilidad y los hace más resistentes a efectos negativos como aturdimiento o debilitamiento. La habilidad dura 5 segundos.", 202, 48, 144);
+   private Caracthers Pocoyo = new Caracthers("Pocoyo", "500N", "500N", "/Imagenes/Pocoyo.png", "El Globo de Pocoyo: ", "Pocoyo infla un globo gigante con su aliento y lo lanza contra su oponente, causándole daño y empujándolo hacia atrás. Existen tres tipos de Globos, Rojo: Daño mortal capaz de KO a los enemigos, Azul: Daño menor pero restauración de vida a los oponentes, Verde: Daño menor pero con aturdimiento a los enemigos.", 84, 164, 214);
+   private Caracthers Finn = new Caracthers("Finn", "800N", "100N", "/Imagenes/Finn.png", "Espada de Pasto", "Aparece la espada de pasto y Finn usa la espada de pasto para crear diferentes formas y ataques con ella, como una lanza, un escudo, una red, una cuerda, etc. Por 7 segundos", 255, 255, 255);
+   private Caracthers Bluey = new Caracthers("Bluey", "1000N", "1000N", "/Imagenes/Bluey.png", "Ha llegado Kamisama", "Bluey destruye todo a su paso porque es Good XD", 217, 185, 84);
+   private Caracthers Coraje = new Caracthers("Coraje", "500N", "500N", "/Imagenes/Coraje.png", "Grito de Coraje", "Coraje emite un grito tan fuerte y agudo que puede romper objetos, aturdir a sus enemigos y mutiplica su fuerza por 2 por 6 segundos", 255, 183, 206);
+   private Caracthers Pulga = new Caracthers("La Pulga", "800N", "200N", "/Imagenes/Pulga.png", "Piquete de Pulga", " La pulga cambia su ataque el cual consiste en que cada vez que un enemigo es picado, obtiene sangrado lo que hace daño constante y aumenta el daño en un 5% de otros ataques. Por cada piquete aumenta otros 5% y puede llegar hasta 50%. Además la Pulga recupera vida por el porcentaje de sangrado. Su habilidad dura 7 segundos", 174, 163, 141);
+
 
    //Plantilla
-   private Caracthers Plantilla = new Caracthers("Aang", "800N", "100N", "/Imagenes/Avatar_Aang.png", "Dominio de los cuatro elementos", "", 126, 205, 107);
-
+   private Caracthers Plantilla = new Caracthers("Aang", "800N", "100N", "/Imagenes/Avatar_Aang.png", "", "", 126, 205, 107);
+   //24 ultimo conteo
+   //faltan 1
    
-   private Caracthers[] personajes = new Caracthers[]{PabloCientifico, Shaggy, VacaYPollito, Dexter, Tom, Jerry, Gumball, JorgeCurioso, Lich, PanteraRosa, Aang, Popeye, SamuraiJack};
+   private Caracthers[] personajes = new Caracthers[]{Barney, Shaggy, VacaYPollito, Dexter, Tom, Jerry, Gumball, JorgeCurioso, Lich, PanteraRosa, Aang, Popeye, SamuraiJack, Billy, Mandy, Huesos, Bugsbunny, Clifford, BobConstructor, Rex, PabloCientifico, Pocoyo, Finn, Coraje, Pulga, Bluey};
    private Caracthers prueba = personajes[Position];
    
    
@@ -185,10 +200,10 @@ public void RandomCharacter(int max){
    int Max = personajes.length;
 // Crea un JPanel con BorderLayout (puede contener otros componentes)
         
-     setTitle("Ventana completa");
+     setTitle("Smash Toons");
      setSize(700, 500);
      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-     setBackground(new java.awt.Color(21, 59, 80));
+     setBackground(new java.awt.Color(0, 48, 96));
      jPanel1 = new JPanel();
 
         jPanel1.setBackground(new java.awt.Color(21, 59, 80));
@@ -440,7 +455,7 @@ public void RandomCharacter(int max){
      */
     public static void main(String[] args) {
         
-         CaracthersToons ventana = new CaracthersToons();
+         Home ventana = new Home();
         
         // Hacer visible la ventana
         ventana.setVisible(true);
