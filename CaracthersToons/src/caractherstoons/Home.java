@@ -58,9 +58,6 @@ class FondoPanel extends JPanel {
 
 public class Home extends JFrame {
     private JPanel jPanel1;
-    private JPanel jPanel3;
-    private JPanel jPanel2;
-    private JLabel jLabel1;
     private JLabel Inicio;
     private int timerPart = 600;
    
@@ -119,8 +116,7 @@ public class Home extends JFrame {
         
         });
         
-        Inicio.setBackground(new java.awt.Color(21, 59, 80));
-        
+
         
         
         Timer afterOut;
@@ -178,6 +174,6 @@ public class Home extends JFrame {
                 .addGap(10, 10, 10))
         );
 
-        setVisible(true);
+        
      }
 }
